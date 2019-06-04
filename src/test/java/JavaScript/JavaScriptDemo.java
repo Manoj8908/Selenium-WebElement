@@ -30,7 +30,8 @@ public class JavaScriptDemo {
 		}
 		
 	}
-	public static void changecolor(String color,WebElement element,WebDriver driver) {
+	public static void changecolor(String color,WebElement element,WebDriver driver) 
+		{
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].style.backgroundcolor = '" + color + "'",element);
 		
@@ -40,8 +41,9 @@ public class JavaScriptDemo {
 			
 		}
 		
-	}
-	public static void drawboarder(WebElement element,WebDriver driver) {
+		}
+	public static void drawboarder(WebElement element,WebDriver driver)
+			{
 		
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].style.border='3px solid red'", element);
@@ -53,13 +55,15 @@ public class JavaScriptDemo {
 		return TitleName;
 	}
 	
-	public static void clickelementbyjs(WebElement element,WebDriver driver) {
+	public static void clickelementbyjs(WebElement element,WebDriver driver)
+	{
 		
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 		js.executeScript("argument[0].click();", element);
 	}
 	
-	public static void Generatealertbyjs(WebDriver driver,String message) {
+	public static void Generatealertbyjs(WebDriver driver,String message) 
+		{
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 		js.executeScript("alert('" + message + "')");
 		}
