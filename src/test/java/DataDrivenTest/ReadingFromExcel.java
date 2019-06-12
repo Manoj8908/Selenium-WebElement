@@ -19,13 +19,13 @@ public class ReadingFromExcel {
 		int rowcount = sh.getLastRowNum();
 		int colcount = sh.getRow(0).getLastCellNum();
 		
-		for(int i=0;i<rowcount;i++) 
+		for(int i=0;i<=rowcount;i++) 
 		{
 			XSSFRow Currentrow = sh.getRow(i);
 			for(int j=0;j<colcount;j++) 
 			{
 				String value = Currentrow.getCell(j).toString();
-				System.out.print(" "+value);
+				System.out.print(" "+value+":");
 			}
 			System.out.println();
 		}

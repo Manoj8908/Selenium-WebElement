@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="185" started-at="2019-06-11T11:17:35Z" finished-at="2019-06-11T11:17:35Z">
+  <suite name="Default suite" duration-ms="130477" started-at="2019-06-12T16:17:57Z" finished-at="2019-06-12T16:20:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="185" started-at="2019-06-11T11:17:35Z" finished-at="2019-06-11T11:17:35Z">
-      <class name="TestExecution.ParallelTesting2">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestExecution.ParallelTesting2@6500df86]" name="f" duration-ms="41" started-at="2019-06-11T11:17:35Z" finished-at="2019-06-11T11:17:35Z">
+    <test name="Default test" duration-ms="130477" started-at="2019-06-12T16:17:57Z" finished-at="2019-06-12T16:20:07Z">
+      <class name="HandleWebElements.CookiesExample">
+        <test-method status="PASS" signature="cooky()[pri:0, instance:HandleWebElements.CookiesExample@27c20538]" name="cooky" duration-ms="130400" started-at="2019-06-12T16:17:57Z" finished-at="2019-06-12T16:20:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="f1()[pri:0, instance:TestExecution.ParallelTesting2@6500df86]" name="f1" duration-ms="8" started-at="2019-06-11T11:17:35Z" finished-at="2019-06-11T11:17:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f1 -->
-        <test-method status="PASS" signature="f2()[pri:0, instance:TestExecution.ParallelTesting2@6500df86]" name="f2" duration-ms="8" started-at="2019-06-11T11:17:35Z" finished-at="2019-06-11T11:17:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2 -->
-      </class> <!-- TestExecution.ParallelTesting2 -->
+        </test-method> <!-- cooky -->
+      </class> <!-- HandleWebElements.CookiesExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
